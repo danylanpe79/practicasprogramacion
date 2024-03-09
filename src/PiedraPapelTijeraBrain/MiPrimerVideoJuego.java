@@ -10,7 +10,7 @@ package PiedraPapelTijeraBrain;
 import java.util.Scanner;
 /**
  *Esta clase nos muestra el juego de piedra, papel o tijera.
- * @author Daniel Lanza Pena.
+ * @author Daniel Lanza Peña.
  * @since 04/03/2024.
  * 
  */
@@ -94,27 +94,7 @@ public class MiPrimerVideoJuego {
                 do {
                     System.out.println("Introduce tu jugada");
                     opcionJugador = sc.nextLine();
-                    /**
-                    * Impresión en pantalla, según la elección del jugador, del simbolo correspondiente llamando a los metodos piedra(), papel() o tijera()
-                    * @deprecated Este bucle es un añadido del autor como dijimos para visualizar piedra, papel o tijera, cuando el jugador humano elige
-                    * /
-                    /*
-                    switch (opcionJugador){
-                        case "piedra":{
-                            piedra();
-                            break;
-                        }//fin de case
-                        case "papel":{
-                            papel();
-                            break;
-                        }// fin de case
-                        case "tijera":{
-                            tijera();
-                            break;
-                        }//fin de case
-                    }//fin de switch
-                    /*
-                    /*                 /* 
+                   /**                
                     * Imprime por pantalla un mensaje en caso de empate y regresa al bucle do while
                     */
                     if (opcionBot.equals(opcionJugador)) {
@@ -180,9 +160,7 @@ public class MiPrimerVideoJuego {
     System.out.println("Penalización: " + nFallos + " x 5s = " + nFallos * 5);
     double tiempoFinal = tiempo + nFallos * 5;
     System.out.println("Tu tiempo final es de " + tiempoFinal + " segundos");
-    System.out.println("Vuelve a jugar con nosotros");
-    System.out.println("Es muy divertido");
-    }
+   }
     /**
     * Método para visulizar el simbolo de tijera.
     * 
