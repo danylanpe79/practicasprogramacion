@@ -94,7 +94,7 @@ public class MiPrimerVideoJuego {
                 do {
                     System.out.println("Introduce tu jugada");
                     opcionJugador = sc.nextLine();
-                    /** 
+                   /**                
                     * Imprime por pantalla un mensaje en caso de empate y regresa al bucle do while
                     */
                     if (opcionBot.equals(opcionJugador)) {
@@ -160,8 +160,6 @@ public class MiPrimerVideoJuego {
     System.out.println("Penalización: " + nFallos + " x 5s = " + nFallos * 5);
     double tiempoFinal = tiempo + nFallos * 5;
     System.out.println("Tu tiempo final es de " + tiempoFinal + " segundos");
-    System.out.println("Vuelve a jugar con nosotros");
-    System.out.println("Es muy divertido");
    }
     /**
     * Método para visulizar el simbolo de tijera.
